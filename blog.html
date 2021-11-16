@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="Images/logo.png" alt=""></a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1>Certification And Programs</h1>
+   </section>
+   <section class="blog">
+       <div class="row">
+           <div class="blog-left">
+<img src="Images/certificate.jpg" alt="">
+<h3>Certification And Programs</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sint dolor non veniam, fuga debitis, commodi distinctio illum modi accusamus aliquam.
+     Rem exercitationem iure totam ea ab laborum, consequatur accusantium. ipsum dolor sit amet consectetur adipisicing elit.
+     Dolore est officia consectetur totam, dignissimos voluptates delectus laborum vero autem pariatur!</p>
+     <br>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni numquam velit mollitia voluptate culpa cumque reiciendis,
+          maiores quasi soluta rerum eius perferendis dolor quia? Placeat explicabo corrupti rerum ad. ipsum dolor sit amet consectetur adipisicing elit.
+          Dolorum laboriosam voluptatum ut modi accusantium facilis ullam reiciendis! Dolorem, enim debitis.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Temporibus laudantium odit vero rem ipsum voluptatem excepturi accusantium laboriosam voluptates debitis. Iure necessitatibus nihil deserunt iusto cum nobis? Tenetur, nostrum eum., ipsum dolor sit amet consectetur adipisicing elit. 
+              Maxime incidunt quae ipsam dolores. Nobis recusandae asperiores iusto sint et animi!</p>
+              <div class="comment-box">
+                  <h3>Leave Comment</h3>
+                  <form action="" class="comment-form">
+                      <input type="text" placeholder="Enter Name">
+                      <input type="email" placeholder="Enter Email">
+                      <textarea rows="5" placeholder="Your Comment"></textarea>
+                
+                      <button type="submit" class="hero-btn red-btn">Comment</button>
+
+                  </form>
+              </div>
+           </div>
+           <div class="blog-right">
+<h3>Post Categories</h3>
+<div>
+    <span>Business Analytics</span>
+    <span>21</span>
+</div>
+<div>
+    <span>Computer Science</span>
+    <span>24</span>
+</div>
+<div>
+    <span>Data Science</span>
+    <span>26</span>
+</div>
+<div>
+    <span>Machine Learning</span>
+    <span>24</span>
+</div>
+<div>
+    <span>Auto-cad</span>
+    <span>27</span>
+</div>
+<div>
+    <span>Marketing</span>
+    <span>20</span>
+</div>
+<div>
+    <span>Journalism</span>
+    <span>23</span>
+</div>
+           </div>
+       </div>
+   </section>
+</section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Reprehenderit eius magnam fugiat velit corrupti voluptas?</p>
+<div class="icons">
+    <i class="fa fa-facebook" ></i>
+    <i class="fa fa-instagram" ></i>
+    <i class="fa fa-twitter" ></i>
+    <i class="fa fa-linkedin" ></i>
+</div>
+<p>Faheem AlRassamny All Rights Reserved</p>
+</section>
+    <script>
+        var navlinks= document.getElementById("navlinks");
+function showmenu(){
+    navlinks.style.right="0";
+
+}
+function hidemenu(){
+    navlinks.style.right="-200px";
+
+}
+
+</script>
+</body>
+</html>
